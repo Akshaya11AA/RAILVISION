@@ -1,0 +1,12 @@
+{
+  "users":[
+    {"id":"u-admin","name":"Operations Admin","email":"admin@railguard.local","password":"admin123","role":"admin"},
+    {"id":"u-worker","name":"Track Worker","email":"worker@railguard.local","password":"worker123","role":"worker"}
+  ],
+  "issues":[
+    {"id":"ISS-1042","source":"robot","title":"Rail surface crack detected","description":"Vision model detected a longitudinal crack pattern requiring field verification.","location":"Madurai Junction · KM 428/7","lat":9.9195,"lng":78.1193,"priority":"Critical","status":"Active","image":"https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=900&q=80","reportedBy":"RailGuard Robot","createdAt":"2026-10-07T07:10:00.000Z","updatedAt":"2026-10-07T07:10:00.000Z"},
+    {"id":"ISS-1041","source":"robot","title":"Water accumulation near ballast","description":"Water-level sensor and camera indicate persistent waterlogging beside the track.","location":"Madurai East · KM 431/2","lat":9.915,"lng":78.145,"priority":"High","status":"In Progress","image":"https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?auto=format&fit=crop&w=900&q=80","reportedBy":"RailGuard Robot","createdAt":"2026-10-07T06:42:00.000Z","updatedAt":"2026-10-07T08:02:00.000Z","assignedTo":"u-worker"},
+    {"id":"ISS-1039","source":"public","title":"Debris beside railway line","description":"Public report: debris observed close to the running rail.","location":"Kochadai Road · KM 426/9","lat":9.930,"lng":78.108,"priority":"Medium","status":"Completed","image":"https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=900&q=80","reportedBy":"Public Reporter","createdAt":"2026-10-06T12:18:00.000Z","updatedAt":"2026-10-06T15:24:00.000Z"}
+  ],
+  "telemetry":[]
+}
